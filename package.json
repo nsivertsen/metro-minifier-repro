@@ -1,0 +1,17 @@
+{
+  "name": "metro-minifier-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node build.js && node dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "metro": "^0.64.0",
+    "metro-core": "^0.64.0"
+  },
+  "dependencies": {}
+}
